@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import java.net.*?>
+
+<AnchorPane id="Scene" fx:id="Scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('C:/Users/spaz/Pictures/UbisoftConnect/BODIN_Doryan_photoidentité.jpg');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+<stylesheets>
+    <URL value="@application.css" />
+  </stylesheets>
+   <children>
+      <Button fx:id="btnVerifLettre" layoutX="247.0" layoutY="323.0" mnemonicParsing="false" onAction="#VerifierLettre" prefHeight="70.0" prefWidth="107.0" text="Verifier lettre" textFill="#1ad032">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor></Button>
+      <TextField fx:id="TFlettre" layoutX="226.0" layoutY="269.0" promptText="Entrez une lettre" />
+      <Label fx:id="car6" layoutX="315.0" layoutY="133.0" prefHeight="39.0" prefWidth="45.0" text="_">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="car1" layoutX="90.0" layoutY="133.0" prefHeight="39.0" prefWidth="45.0" text="_">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="car7" layoutX="360.0" layoutY="133.0" prefHeight="39.0" prefWidth="45.0" text="_">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="car9" layoutX="451.0" layoutY="133.0" prefHeight="39.0" prefWidth="45.0" text="_">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="car10" layoutX="496.0" layoutY="133.0" prefHeight="39.0" prefWidth="45.0" text="_">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="car8" layoutX="406.0" layoutY="133.0" prefHeight="39.0" prefWidth="45.0" text="_">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="car3" layoutX="180.0" layoutY="133.0" prefHeight="39.0" prefWidth="45.0" text="_">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="car2" layoutX="135.0" layoutY="133.0" prefHeight="39.0" prefWidth="45.0" text="_">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="car4" layoutX="225.0" layoutY="133.0" prefHeight="39.0" prefWidth="45.0" text="_">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="car5" layoutX="270.0" layoutY="133.0" prefHeight="39.0" prefWidth="45.0" text="_">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="TAlettresFausses" layoutX="443.0" layoutY="282.0" prefHeight="102.0" prefWidth="107.0" />
+      <Label layoutX="14.0" layoutY="294.0" prefHeight="34.0" prefWidth="107.0" text="Erreurs restantes :" textFill="RED" />
+      <Label fx:id="LblErreurs" layoutX="135.0" layoutY="303.0" />
+      <Label layoutX="457.0" layoutY="252.0" text="Lettres fausse :" textFill="RED" />
+      <Label layoutX="191.0" layoutY="22.0" prefHeight="52.0" prefWidth="262.0" text="Jeu du Pendu by Spaz88" textFill="#220ee5">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
