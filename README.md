@@ -9,3 +9,4 @@
  - Rajouter des graphes statistique
  - Condition de victoire
  - Animation
+ - Enregistrer les parties dans une BDD
